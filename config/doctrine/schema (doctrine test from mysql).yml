@@ -1,0 +1,22 @@
+Tablita:
+  connection: doctrine
+  tableName: tablita
+  columns:
+    id:
+      type: integer(8)
+      autoincrement: true
+      primary: true
+    a:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    b:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
